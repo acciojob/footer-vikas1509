@@ -3,19 +3,25 @@
 	color:white;
 	list-style-type:none;
 }
+.content{
+	
+	
+}
 footer{
 	background-color:#000000;
 }
 .media-icons img{
-	width:50px;
-	height:30px;
+	width:20%;
+	height:20%;
 	
 	
 }
 .media-icons{
+	width:40%;
 	margin:20px;
 display:flex;
-
+	flex-wrap:wrap;
+flex-direction:row;
 justify-content:space-around;
 }
 .logo_name{
@@ -32,7 +38,7 @@ font-family: 'Roboto', sans-serif;
 }
 .heading {
 	font-size:20px;
-	text-decoration:underline;
+	text-decoration:under
 font-family: 'Inter', sans-serif;
 font-family: 'Roboto', sans-serif;
 	color:#ffffff;
@@ -41,6 +47,11 @@ font-family: 'Roboto', sans-serif;
 	display:flex;
 
 	
+}
+.link-boxes{
+	display:flex;
+	justify-content:space-between;
+
 }
 .link li{
 margin-bottom:15px;
